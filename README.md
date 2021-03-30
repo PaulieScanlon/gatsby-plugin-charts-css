@@ -1,2 +1,3 @@
 # gatsby-plugin-charts-css
-A Gatsby Plugin that wraps the Charts.css project for easy use in Gatsby 
+
+A Gatsby Plugin that wraps the [Charts.css](https://chartscss.org/) project for easy use in Gatsby
