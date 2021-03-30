@@ -5,5 +5,9 @@
       "demo",
       "gatsby-plugin-charts-css"
     ]
+  },
+  "scripts": {
+    "copy": "node copy-readme.js",
+    "release": "npm run copy && yarn workspace gatsby-plugin-charts-css publish"
   }
 }

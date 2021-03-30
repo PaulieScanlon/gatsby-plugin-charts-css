@@ -1,9 +1,10 @@
 {
   "name": "gatsby-plugin-charts-css",
-  "version": "1.0.0",
+  "version": "0.0.3",
   "description": "A Gatsby Plugin that wraps the Charts.css project for easy use in Gatsby",
   "main": "index.js",
   "scripts": {
+    "publish": "npm login",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
