@@ -1,30 +1,3 @@
-# gatsby-plugin-charts-css
-
-A Gatsby Plugin that wraps the [Charts.css](https://chartscss.org/) project for easy use in Gatsby
-
-## Setup
-
-```sh
-yarn add gatsby-plugin-charts-css
-```
-
-Add to your site's `gatsby-config.js`.
-
-```js
-module.exports = {
-  plugins: [`gatsby-plugin-charts-css`]
-};
-```
-
-## How to use
-
-See the [charts.css README](https://github.com/ChartsCSS/charts.css) for full documentation.
-
-Simple example.
-
-`demo/src/pages/index.js`
-
-```js
 import React from 'react';
 
 import './styles.css';
@@ -61,19 +34,3 @@ const IndexPage = () => {
 };
 
 export default IndexPage;
-```
-
-`demo/src/pages/styles.css`
-
-```css
-html,
-body {
-  font-family: 'system-ui';
-}
-
-#my-chart.column {
-  height: 200px;
-  max-width: 300px;
-  margin: 0 auto;
-}
-```
